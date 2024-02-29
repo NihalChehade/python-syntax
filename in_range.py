@@ -17,11 +17,9 @@ def in_range(nums, lowest, highest):
 
     # YOUR CODE HERE
     highest = highest + 1
-
-    for num in nums :
-        range(lowest, highest)
-        print(f"{num}")
+    for num in range(lowest, highest) :
+        for num1 in nums:
+            if num == num1:            
+                print(f"{num1}")
         
-
-
 in_range([10, 20, 30, 40, 50], 15, 30)            
